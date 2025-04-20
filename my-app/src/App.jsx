@@ -17,8 +17,13 @@ import img12 from "./assets/Frame (27).png"
 import img13 from "./assets/Frame (28).png"
 import img14 from "./assets/Frame (22).png"
 import logo from "./assets/Frame (23).png"
-import Button from './component/button'
+
 const App = () => {
+
+
+
+
+
   return (
     <div>
       <header>
@@ -45,6 +50,8 @@ const App = () => {
                 Curated and Convenient
               </h2>
               <p className='buil-divh'>We've built our offerings on the principle that everyone deserves high-quality design without the high cost. We offer elevated rental inventory, to transform your space. Reuse and recycle - we make the decision as light as a “feather”</p>
+
+              <button className='buttongetstarder'>Get Started</button>
             </div>
           </aside>
           <aside>
@@ -149,12 +156,9 @@ const App = () => {
 <aside className='floyd-asaid'>
   <p className='feather-p'>feather x Floyd</p>
   <h2 className='metts-h2'>Floyd Furniture Meets Feather Flexibility</h2>
+  <button className='exxxpllore-button'>Explore Floyd Furniture</button>
 </aside>
         </section>
-
-
-
-
         <section class="reviews-section">
   <h2 class="reviews-title">The Reviews are In</h2>
   <div class="reviews-container">
@@ -175,10 +179,6 @@ const App = () => {
     </div>
   </div>
 </section>
-
-
-
-
 <section className='moving-secetion'>
 <h2 className='apartment-h2'>Ease the pain of moving from apartment to apartment.</h2>
 <div className='all-imgdiv'>
@@ -192,10 +192,9 @@ const App = () => {
 <section className='furnish-section'>
 <img src={img14} className='img14' alt="" />
 <h2 className='featherstress-sectionh2'>Feather is the stress-free way to furnish your home</h2>
+<button className='shop-furniture'>Shop Furniture</button>
 </section>
-
       </main>
-
       <footer class="footer">
   <div class="footer-columns">
     <div class="footer-column">

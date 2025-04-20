@@ -228,14 +228,9 @@ text-align: center;
 .featherstress-sectionh2{
   width: 292px;
   text-align: center;
-  margin-left: 470px;
+  margin-left: 460px;
 
 }
-
-
-
-
-
 
 .reviews-section {
   text-align: center;
@@ -352,4 +347,29 @@ text-align: center;
 
 .footer-logo img {
   height: 40px;
+}
+
+.buttongetstarder{
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid black;
+  background-color: chocolate;
+  color: white;
+}
+.shop-furniture{
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid black;
+  background-color: chocolate;
+  color: white;
+}
+.exxxpllore-button{
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
 }
