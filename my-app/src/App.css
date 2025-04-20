@@ -1,3 +1,6 @@
+head{
+  font-family: Roboto;
+}
 .nav-header{
 display: flex;
 align-items: center;
@@ -58,4 +61,50 @@ li{
   width: 892px;
   text-align: center;
   margin-left: 135px;
+}
+.cura-teds{
+  
+  font-size: 40px;
+  width: 398px;
+}
+.buil-divhs{
+  width: 402px;
+  font-size: 18px;
+}
+.explore-furniture{
+  font-size: 18px;
+  color: coral;
+  margin-left: -240px;
+}
+.asaidinimge{
+  border-radius: 10px;
+}
+.garge-section{
+  display:flex;
+align-items: center;
+max-width: 1200px;
+margin: auto;
+margin-top: 100px;
+}
+.garage-sale{
+  font-size: 40px;
+}
+.garage-saleopen{
+  font-size: 18px;
+  width: 441px;
+}
+.shop-now{
+  color: chocolate;
+}
+.terms-sale{
+  font-size: 16px;
+}
+.explore-furnitures{
+  font-size: 18px;
+  color: coral;
+  margin-left: -240px;
+  margin-top: 40px;
+}
+.asaidinimges{
+  border-radius: 10px;
 }
