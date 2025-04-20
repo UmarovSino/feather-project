@@ -216,7 +216,7 @@ text-align: center;
 }
 .furnish-section{
   background-color: #FBF8F5;
-  max-width: 1160px;
+  max-width: 1500px;
   margin: auto;
   align-items: center;
   text-align: center;
@@ -228,7 +228,7 @@ text-align: center;
 .featherstress-sectionh2{
   width: 292px;
   text-align: center;
-  margin-left: 430px;
+  margin-left: 470px;
 
 }
 
@@ -289,4 +289,67 @@ text-align: center;
   margin-top: 15px;
   font-size: 14px;
   color: #555;
+}
+
+.footer {
+  background-color: #F3F0EC;
+  padding: 40px 60px;
+  font-family: Arial, sans-serif;
+  color: #222;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-column h4 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.footer-column ul li:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.newsletter-line {
+  width: 150px;
+  height: 1px;
+  background-color: black;
+  margin-top: 10px;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+.footer-logo img {
+  height: 40px;
 }

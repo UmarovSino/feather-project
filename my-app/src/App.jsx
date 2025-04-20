@@ -16,6 +16,7 @@ import img11 from "./assets/Frame (26).png"
 import img12 from "./assets/Frame (27).png"
 import img13 from "./assets/Frame (28).png"
 import img14 from "./assets/Frame (22).png"
+import logo from "./assets/Frame (23).png"
 import Button from './component/button'
 const App = () => {
   return (
@@ -194,6 +195,73 @@ const App = () => {
 </section>
 
       </main>
+
+      <footer class="footer">
+  <div class="footer-columns">
+    <div class="footer-column">
+      <h4>FURNITURE</h4>
+      <ul>
+        <li>Packages</li>
+        <li>Living Room</li>
+        <li>Bedroom</li>
+        <li>Dining</li>
+        <li>Home Office</li>
+        <li>Decor</li>
+        <li>Lighting</li>
+        <li>Outdoor</li>
+        <li>All Furniture</li>
+        <li>Sample Sale</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>ABOUT</h4>
+      <ul>
+        <li>How it Works</li>
+        <li>About Feather</li>
+        <li>Feather Furniture</li>
+        <li>Reviews</li>
+        <li>Feather for WeWork</li>
+        <li>Feather for Business</li>
+        <li>Feather for Staging</li>
+        <li>Affiliate Program</li>
+        <li>Careers</li>
+        <li>In Your Area</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>HELP</h4>
+      <ul className='faqs'>
+        <li>FAQs</li>
+        <li>Contact us</li>
+        <li>Privacy Policy</li>
+        <li>Terms</li>
+        <li>FloorFound Terms</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>FEATHER ON SOCIAL MEDIA</h4>
+      <div class="social-icons">
+        <span>📧</span>
+        <span>📌</span>
+        <span>🐦</span>
+        <span>📸</span>
+        <span>💼</span>
+        <span>📘</span>
+      </div>
+      <h4>JOIN OUR NEWSLETTER</h4>
+      <div class="newsletter-line"></div>
+    </div>
+  </div>
+
+  <div class="footer-logo">
+    
+    <img src={logo} alt="Logo" />
+  </div>
+</footer>
+
     </div>
   )
 }
