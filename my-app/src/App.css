@@ -1,0 +1,61 @@
+.nav-header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px;
+font-family:Roboto;
+max-width: 1200px;
+margin: auto;
+}
+ul{
+display: flex;
+gap: 30px ;
+align-items: center;
+list-style: none;
+}
+li{
+  font-size: 20px;
+}
+.curated-section{
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 70px;
+  gap:240px;
+}
+.convenien-div{
+  text-align: center;
+  
+}
+.cura-ted{
+  font-weight: bold;
+  font-size: 40px;
+
+}
+.buil-divh{
+  font-size: 18px;
+  width: 500px;
+}
+
+.asaidinimg{
+  border-radius: 20px;
+  width: 530px;
+}
+.enjoy-swction{
+  max-width: 1200px;
+  margin: auto;
+  margin-top:100px;
+  align-items: center;
+  text-align: center;
+}
+.keping-h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+.keping-p{
+  font-size: 18px;
+  width: 892px;
+  text-align: center;
+  margin-left: 135px;
+}
