@@ -18,6 +18,15 @@ import img13 from "./assets/Frame (28).png"
 import img14 from "./assets/Frame (22).png"
 import logo from "./assets/Frame (23).png"
 
+
+import TodoList from './component/todo'
+
+
+
+
+
+
+
 const App = () => {
 
 
@@ -60,6 +69,13 @@ const App = () => {
         </section>
       </header>
       <main>
+
+<section>
+  <TodoList/>
+</section>
+      
+
+        
         <section className='enjoy-swction'>
           <h2 className='keping-h2'>
             “Keeping Furniture in Homes and out of Landfills."
